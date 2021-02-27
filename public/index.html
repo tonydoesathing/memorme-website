@@ -200,8 +200,28 @@
                 </form>
             </div>
             <footer class="footer">
-                <p>© 2020 MemorMe Inc.</p>
+                <p>© 2021 MemorMe Inc.</p>
             </footer>
         </section>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
+
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyBuXiyaKuk8A_THZS2v6VwE9ZqED_CzsjM",
+            authDomain: "memorme-web.firebaseapp.com",
+            projectId: "memorme-web",
+            storageBucket: "memorme-web.appspot.com",
+            messagingSenderId: "31769250229",
+            appId: "1:31769250229:web:99a1373d92e6b4f95431fc",
+            measurementId: "G-WLYBXBV3SD"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
   </body>
 </html>
