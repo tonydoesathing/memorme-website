@@ -9,3 +9,7 @@ This is the MemorMe website v. 2
 ### How do I get set up? ###
 
 * You need firebase cli <https://firebase.google.com/docs/hosting/quickstart>
+
+
+### How do I run it locally? ###
+`firebase emulators:start`
