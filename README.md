@@ -1,15 +1,22 @@
-# README #
+# memorme-website
+This is the memorme.app website, our main landing page for the app. It introduces the idea of MemorMe, gives potential usecases, and calls the visitor to the action of giving us their email for future communications. It has basic Firebase Analytics capabilities, and was made using Nuxt.js and Skeleton.css
 
-This is the MemorMe website v. 2
+Start in `/pages/index.vue`
 
-### How to push to host? ###
+## Build Setup
 
-`firebase deploy --only hosting`
+```bash
+# install dependencies
+$ yarn install
 
-### How do I get set up? ###
+# serve with hot reload at localhost:3000
+$ yarn dev
 
-* You need firebase cli <https://firebase.google.com/docs/hosting/quickstart>
+# build for production and launch server
+$ yarn build
+$ yarn start
 
+# generate static project
+$ yarn generate
+```
 
-### How do I run it locally? ###
-`firebase emulators:start`

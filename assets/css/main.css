@@ -1,0 +1,60 @@
+h1{
+    font-size: 6rem;
+    line-height: 1;
+}
+
+h3{
+    font-weight: 500;
+}
+
+h5{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.fullheight{
+    min-height: 100vh;
+}
+
+.submit-button{
+    background: #009fff;
+    color: white;
+    color: white !important;
+    border: none;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 2rem;
+    height: auto !important;
+    line-height: 5.5rem;
+    align-items: center;
+    text-transform: none !important;
+    width: 100%;
+}
+.submit-button:active{
+    box-shadow: inset 0 4px 10px #656565a1;
+    color: white !important;
+    border: none;
+}
+.submit-button:hover{
+    color: white !important;
+}
+
+
+.padding-top{
+    padding-top: 5rem;
+}
+
+@media (min-width: 550px) {
+    .padding-top{
+        padding-top: 10rem;
+    }
+    .submit-button{
+        width: auto;
+    }
+}
