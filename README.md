@@ -11,7 +11,7 @@ This is the memorme.app website, our main landing page for the app. It introduce
 Start in `/pages/index.vue`; otherwise, [preview the website here](tonydoesathing.github.io/memorme-website/)
 
 <p align="center">
-    <img src="static/clouds.svg" height=200>
+    <img src="static/Clouds.svg" height=200>
 </p>
 
 ## Build Setup
