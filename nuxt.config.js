@@ -63,7 +63,7 @@ export default {
 
   // Fix the links for Github Pages
   build: {
-    publicPath: './_nuxt/'
+    publicPath: '/memorme-website/_nuxt/'
   },
 
   // Generate the static site for Github Pages
@@ -73,6 +73,6 @@ export default {
 
   // Fix the links for Github Pages
   router: {
-    base: './'
+    base: '/memorme-website/'
   }
 }
