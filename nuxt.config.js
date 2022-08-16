@@ -13,7 +13,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'MemorMe is an app that guides you through the process of digitally saving your memories so that you’ll never forget those meaningful moments.' },
     ],
-    link: [{ rel: 'icon', type: 'image/svg+xml', href: '/MemorMeLogoSVG.svg',}, {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap'}],
+    link: [{ rel: 'icon', type: 'image/svg+xml', href: './MemorMeLogoSVG.svg',}, {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap'}],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -61,10 +61,18 @@ export default {
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  // Fix the links for Github Pages
+  build: {
+    publicPath: './_nuxt/'
+  },
 
+  // Generate the static site for Github Pages
   generate: {
     dir: 'docs'
+  },
+
+  // Fix the links for Github Pages
+  router: {
+    base: './'
   }
 }
