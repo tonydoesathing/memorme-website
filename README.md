@@ -4,11 +4,11 @@
 </p>
 
 # MemorMe Website
-<a href="https://github.com/tonydoesathing/memorme-website" alt="Last Commit"><img src="https://img.shields.io/github/last-commit/tonydoesathing/memorme-website" /></a> [![Preview - Here](https://img.shields.io/badge/Preview-Here-009fff)](tonydoesathing.github.io/memorme-website/)
+<a href="https://github.com/tonydoesathing/memorme-website" alt="Last Commit"><img src="https://img.shields.io/github/last-commit/tonydoesathing/memorme-website" /></a> [![Preview - Here](https://img.shields.io/badge/Preview-Here-009fff)](https://tonydoesathing.github.io/memorme-website/)
 
 This is the memorme.app website, our main landing page for the app. It introduces the idea of MemorMe, gives potential usecases, and calls the visitor to the action of sharing their email for future communications. It has basic Firebase Analytics capabilities, and was made using Nuxt.js and Skeleton.css
 
-Start in `/pages/index.vue`; otherwise, [preview the website here](tonydoesathing.github.io/memorme-website/)
+Start in `/pages/index.vue`; otherwise, [preview the website here](https://tonydoesathing.github.io/memorme-website/)
 
 <p align="center">
     <img src="static/clouds.svg" height=200>
