@@ -61,9 +61,8 @@ export default {
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
-  // Fix the links for Github Pages
   build: {
-    publicPath: '/memorme-website/_nuxt/'
+    
   },
 
   // Generate the static site for Github Pages
@@ -74,5 +73,9 @@ export default {
   // Fix the links for Github Pages
   router: {
     base: '/memorme-website/'
+  },
+
+  static: {
+    prefix: true
   }
 }
